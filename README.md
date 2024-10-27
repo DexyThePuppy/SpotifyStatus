@@ -1,39 +1,46 @@
-#  🎶 Resonite Spotify Status 🎉
+# 🎵 ResoniteSpotifyStatus
 
-Show off your Spotify vibes directly in Resonite! 🎧 This handy tool displays your Spotify status, complete with album art, and lets you control playback.  It even syncs with your Spotify client automatically.  
+🎶 Display Spotify status inside Resonite using WebSocket. Control playback (Spotify Premium only), either from just the owner or anyone.<br>
+🖱️ Album, Title, and Artists are clickable with hyperlinks to open Spotify pages. Queue songs by pasting or dropping URIs onto the panel.<br>
+🔊 Drop your Audio Stream for localized volume and broadcast / spatialize controls.<br>
 
-## ✨ Features ✨
+## 🖥️ Server Setup
 
-- **Seamless Control:** See song information, including the album icon, and enjoy effortless control over playback with play, pause, skip, and previous track functionality. ⏯️
-- **Automatic Syncing:** Enjoy uninterrupted listening with automatic syncing to your Spotify client on startup and during playback. 🔄
-- **Collaborative Listening:** Share the musical experience! You and your friends can use the player, with options to manage control access.  🎉
-- **Stream Together:** Elevate the experience by transforming the controller into a shared Spotify player! Stream your audio with friends for a truly connected listening session.  🎤
-- **Canvas Art Integration:** Immerse yourself in the visual world of music with the display of the currently playing song's Canvas art in Resonite.  🎨
-- **Queue It Up:**  Songs can be queued by pasting or dropping their URIs onto the panel.
+Make sure you have installed the [.NET 7.0 Runtime](https://dotnet.microsoft.com/download)!
 
-## 🚀 Getting Started 🚀
+1. 📦 Get the latest release [here](https://github.com/Banane9/SpotifyStatus/releases) and extract it.<br>
+2. 🔑 Create a Spotify application on the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).<br>
+3. 🔗 Add `http://localhost:5000/callback` as a Redirect URI in your Spotify app settings.<br>
+4. ⚙️ Put your Client ID and Client Secret into the `config.ini` file.<br>
+5. 🚀 Run the program.<br>
+6. 🔐 Sign in with your Spotify account and grant access.<br>
 
-### 🔧 Server Setup 🔧
+## 🛠️ Building and Running
 
-Make sure you have installed the [.NET 5.0 Runtime](https://dotnet.microsoft.com/download)!
+1. 📂 Open a terminal or command prompt in the `SpotifyStatus.Standalone` directory.
 
-1. **Download:** Get the latest release of the server [here](https://github.com/Banane9/NeosSpotifyStatus/releases) and extract it somewhere.
-2. **Create Spotify App:** Create a Spotify application on the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
-3. **Set Redirect URI:** Go to the settings of your Spotify application and add `http://localhost:5000/callback` as a Redirect URI.
-4. **Configure Server:** Put your application's Client ID and Client Secret into the `config.ini` file of the server program.
-5. **Run Server:** Run the program.
-6. **Authorize:** Sign in with your Spotify account in the browser window that opened and grant the application access.
+2. 🏗️ Build the project:
+   ```
+   dotnet build
+   ```
 
-### 🌌 Resonite Setup 🌌
+3. 🚀 Run the application:
+   ```
+   dotnet run
+   ```
 
-1. **Copy Link:** Copy this link: `resrec:///U-Banane9/R-88a9ae63-4861-42e5-a378-bed7468e0e50`
-2. **Paste in Resonite:** Paste it into Resonite by pressing Ctrl+V or by opening your Dash menu and pressing the "Paste content from clipboard" button.
-3. **Save the Item:** Grab the item that just spawned, open your context menu and save it. (Note: You may need to return to the root of your own inventory to save the folder.)
-4. **Find in Inventory:** Open your inventory and enter the folder.
-5. **Spawn:** Spawn the item.
-6. **Connect:** While the server program is running, click on the button that says "Connect to WebSocket".
-7. **Wait:**  Give it a moment to connect. 
-8. **Audio Stream (Optional):** Drop your Audio Stream panel into the button being displayed to use the integrated local volume and broadcast / spatialize controls.
+## 🌐 Resonite Setup
+
+To use this in Resonite:
+
+1. 📋 Copy this link: `resrec:///U-Banane9/R-88a9ae63-4861-42e5-a378-bed7468e0e50`<br>
+2. 📥 Paste it into Resonite (Ctrl+V or use the Dash menu).<br>
+3. 💾 Save the spawned item. (You might need to return to your inventory root)<br>
+4. 📂 Open your inventory and find the saved item.<br>
+5. 🔮 Spawn the item in your world.<br>
+6. 🔌 Click "Connect to WebSocket" while the server is running.<br>
+7. ⏳ Wait a moment for the connection.<br>
+8. 🎚️ Optionally, drop your Audio Stream panel for volume and broadcast controls.<br>
 
 ## 📸 Previews 📸
 
@@ -42,7 +49,7 @@ Make sure you have installed the [.NET 5.0 Runtime](https://dotnet.microsoft.com
 | <img src="https://raw.githubusercontent.com/DexyThePuppy/SpotifyStatus/refs/heads/master/Previews/2024-10-27%2001.42.29.webp" width="200"> | <img src="https://raw.githubusercontent.com/DexyThePuppy/SpotifyStatus/refs/heads/master/Previews/2024-10-27%2001.43.18.webp" width="200"> | <img src="https://raw.githubusercontent.com/DexyThePuppy/SpotifyStatus/refs/heads/master/Previews/2024-10-27%2002.09.22.webp" width="375"> |
 
 
-## 🙏 Attributions 🙏
+## 🙏 Attributions
 
-- Icons from flaticon.com by Freepik, Pixel Perfect and Kirashastry.
-- Modified for use as white on transparent masks and animations. 
+🎨 Icons from flaticon.com by Freepik, Pixel Perfect and Kirashastry.<br>
+✏️ Modified for use as white on transparent masks and animations.<br>
