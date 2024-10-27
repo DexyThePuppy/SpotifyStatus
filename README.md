@@ -35,6 +35,13 @@ Make sure you have installed the [.NET 5.0 Runtime](https://dotnet.microsoft.com
 7. **Wait:**  Give it a moment to connect. 
 8. **Audio Stream (Optional):** Drop your Audio Stream panel into the button being displayed to use the integrated local volume and broadcast / spatialize controls.
 
+## 📸 Previews 📸
+
+| Unfocused | Focused | Theme Picker | Queue | Lyrics |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/DexyThePuppy/SpotifyStatus/refs/heads/master/Previews/2024-10-27%2001.42.29.webp" width="200"> | <img src="https://raw.githubusercontent.com/DexyThePuppy/SpotifyStatus/refs/heads/master/Previews/2024-10-27%2001.43.18.webp" width="200"> | <img src="https://raw.githubusercontent.com/DexyThePuppy/SpotifyStatus/refs/heads/master/Previews/2024-10-27%2002.09.22.webp" width="375"> |
+
+
 ## 🙏 Attributions 🙏
 
 - Icons from flaticon.com by Freepik, Pixel Perfect and Kirashastry.
