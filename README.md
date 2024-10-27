@@ -1,4 +1,4 @@
-# 🎵 ResoniteSpotifyStatus
+# 🎵 Resonite SpotifyStatus
 
 🎶 Display Spotify status inside Resonite using WebSocket. Control playback (Spotify Premium only), either from just the owner or anyone.<br>
 🖱️ Album, Title, and Artists are clickable with hyperlinks to open Spotify pages. Queue songs by pasting or dropping URIs onto the panel.<br>
